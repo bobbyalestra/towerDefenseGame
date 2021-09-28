@@ -7,11 +7,11 @@ class Game:
         self.win = pygame.display.set_mode((self.width, self.height))
 
     def run(self):
-        run - True
+        self.run - True
 
         while run:
             for event in pygame.event.get():
-                if event.type == game.QUIT:
+                if event.type == Game.QUIT:
                     run = False
 
         pygame.quit()
