@@ -5,6 +5,10 @@ class Game:
         self.width - 100
         self.height - 700
         self.win = pygame.display.set_mode((self.width, self.height))
+        self.enemies = []
+        self.towers = []
+        self.lives =10
+        self.money = 100
 
     def run(self):
         self.run - True
